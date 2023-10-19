@@ -1,0 +1,12 @@
+---
+- name: Install Vim and Zip
+  hosts: servers
+  become: yes  
+
+  tasks:
+    - name: Install Vim and Zip
+      apt:
+        name:
+          - vim
+          - zip
+        state: present

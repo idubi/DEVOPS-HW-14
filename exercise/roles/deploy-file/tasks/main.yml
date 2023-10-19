@@ -1,0 +1,4 @@
+
+---
+- name: Include the tasks to deploy a file
+  include_tasks: deploy-file.yaml

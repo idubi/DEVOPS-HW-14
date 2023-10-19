@@ -1,0 +1,6 @@
+---
+- name: deploy a file 
+  copy:
+    content: Hello world!
+    dest: /tmp/test1
+

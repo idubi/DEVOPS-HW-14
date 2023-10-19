@@ -1,0 +1,9 @@
+---
+- name: deploy file to all hosts 
+  hosts: servers
+
+  roles:
+    - deploy-file
+
+
+

@@ -1,0 +1,10 @@
+---
+dependencies: []
+galaxy_info:
+  author: ido bistry
+  description: A common role for installing vim and zip 
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic

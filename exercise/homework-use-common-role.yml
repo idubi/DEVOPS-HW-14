@@ -1,0 +1,9 @@
+---
+- name: apply common role tasks
+  hosts: servers
+
+  roles:
+    - common
+
+
+

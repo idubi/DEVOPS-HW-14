@@ -1,0 +1,4 @@
+---
+# tasks file for deploy-template
+- name: add a template file to be deployed in each env 
+  include_tasks: deploy-template.yaml

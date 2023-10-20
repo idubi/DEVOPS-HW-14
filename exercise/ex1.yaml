@@ -1,7 +1,7 @@
 ---
 - name: Install Vim and Zip
   hosts: servers
-  become: yes  
+  
 
   tasks:
     - name: Install Vim and Zip
